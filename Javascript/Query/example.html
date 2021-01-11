@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Query Testbed</title>
+    <script src="../query.js"></script>
+    <style>
+        .comboBoxStyle {
+            font-size: 24pt;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        window.onload = function () {
+            var element = $new().comboBox().className('comboBoxStyle').options({ yes: 'Yes', no: 'No' }).then(function (e) { e.style = 'width: 100px'; }).element;
+            $id('a').appendChild(element);
+        }
+    </script>
+    <div id="a">
+
+    </div>
+</body>
+</html>

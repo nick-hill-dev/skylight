@@ -1,0 +1,29 @@
+<project>
+  <name>Skylight</name>
+  <repositoryReferences>
+    <repositoryReference>
+      <path>Javascript/Canvas</path>
+    </repositoryReference>
+    <repositoryReference>
+      <path>Javascript/Menus</path>
+    </repositoryReference>
+    <repositoryReference>
+      <path>Javascript/Sound</path>
+    </repositoryReference>
+    <repositoryReference>
+      <path>Javascript/State</path>
+    </repositoryReference>
+    <repositoryReference>
+      <path>Javascript/Tiley/Core</path>
+    </repositoryReference>
+    <repositoryReference>
+      <path>Javascript/Tiley/Rendering/Canvas</path>
+    </repositoryReference>
+    <repositoryReference>
+      <path>Javascript/Query</path>
+    </repositoryReference>
+    <repositoryReference>
+      <path>Javascript/Http</path>
+    </repositoryReference>
+  </repositoryReferences>
+</project>

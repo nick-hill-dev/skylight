@@ -1,0 +1,50 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es5",
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "module": "system",
+    "removeComments": false,
+    "outFile": "skylight.js",
+    "noEmitOnError": true
+  },
+  "references": [
+    {
+      "path": "../../Javascript/Canvas/tsconfig.json",
+      "prepend": true
+    },
+    {
+      "path": "../../Javascript/Sound/tsconfig.json",
+      "prepend": true
+    },
+    {
+      "path": "../../Javascript/State/tsconfig.json",
+      "prepend": true
+    },
+    {
+      "path": "../../Javascript/Menus/tsconfig.json",
+      "prepend": true
+    },
+    {
+      "path": "../../Javascript/Tiley/Core/tsconfig.json",
+      "prepend": true
+    },
+    {
+      "path": "../../Javascript/Tiley/Rendering/Canvas/tsconfig.json",
+      "prepend": true
+    },
+    {
+      "path": "../../Javascript/Query/tsconfig.json",
+      "prepend": true
+    },
+    {
+      "path": "../../Javascript/Http/tsconfig.json",
+      "prepend": true
+    }
+  ],
+  "include": [
+    "src/**/*"
+  ]
+}

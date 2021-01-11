@@ -1,0 +1,8 @@
+<project>
+  <name>Javascript.Tiley.Rendering.Canvas</name>
+  <repositoryReferences>
+    <repositoryReference>
+      <path>Javascript/Tiley/Core</path>
+    </repositoryReference>
+  </repositoryReferences>
+</project>

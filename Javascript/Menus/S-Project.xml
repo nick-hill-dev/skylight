@@ -1,0 +1,8 @@
+<project>
+  <name>Javascript.Menus</name>
+  <repositoryReferences>
+    <repositoryReference>
+      <path>Javascript/Canvas</path>
+    </repositoryReference>
+  </repositoryReferences>
+</project>

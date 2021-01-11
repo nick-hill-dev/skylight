@@ -1,0 +1,21 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es5",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "strictNullChecks": true,
+    "module": "system",
+    "removeComments": false,
+    "sourceRoot": "./src/",
+    "rootDir": "./src/",
+    "outDir": "./bin/",
+    "outFile": "./bin/sound.js",
+    "noEmitOnError": true,
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true
+  }
+}
