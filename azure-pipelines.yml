@@ -10,10 +10,16 @@ steps:
     call npm install typescript
     echo Executing tsc...
     call node_modules\.bin\tsc -b
+    echo Assemble...
+    md artifacts
+    xcopy sounds artifacts\sounds /I
+    xcopy images artifacts\images /I
+    xcopy *.html artifacts
+    xcopy *.js artifacts
     echo Done.
   displayName: 'TypeScript Build'
   workingDirectory: Games\Skylight
   
-- publish: 'Games\Skylight\index.html'
+- publish: 'Games\Skylight\artifacts'
   artifact: skylight
   displayName: 'Artifact Skylight'
