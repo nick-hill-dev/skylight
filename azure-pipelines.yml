@@ -7,11 +7,13 @@ pool: Hill Infrastructure
 steps:
 - script: |
     cd Games\Skylight
+    executing Installing tsc...
     npm install typescript
+    echo Executing tsc...
     tsc -b
+    echo Done.
   displayName: 'TypeScript Build'
   
-- publish: 'Games\Skylight\*.js'
+- publish: 'Games\Skylight\*.html'
   artifact: skylight
   displayName: Skylight
-
