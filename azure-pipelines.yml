@@ -7,9 +7,9 @@ pool: Hill Infrastructure
 steps:
 - script: |
     echo Installing tsc...
-    call npm install -g typescript
+    call npm install typescript
     echo Executing tsc...
-    call tsc -b
+    call node_modules\.bin\tsc -b
     echo Done.
   displayName: 'TypeScript Build'
   workingDirectory: Games\Skylight
