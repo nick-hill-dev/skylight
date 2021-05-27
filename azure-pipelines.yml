@@ -5,6 +5,32 @@ pool: Hill Infrastructure
 
 steps:
 - script: |
+    cd Games\Skylight
     npm install typescript
     tsc -b
   displayName: 'TypeScript Build'
+  
+- task: CopyFiles@2
+  inputs:
+    contents: *.js
+    targetFolder: artifacts
+    
+- task: CopyFiles@2
+  inputs:
+    contents: *.html
+    targetFolder: artifacts
+    
+- task: CopyFiles@2
+  inputs:
+    contents: 'images\*'
+    targetFolder: 'artifacts\images'
+        
+- task: CopyFiles@2
+  inputs:
+    contents: 'sounds\*'
+    targetFolder: 'artifacts\sounds'
+    
+- publish: 'Games\Skylight\artifacts'
+  artifact: skylight
+  displayName: Skylight
+
