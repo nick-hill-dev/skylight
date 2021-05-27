@@ -9,8 +9,8 @@ trigger:
 pool: Hill Infrastructure
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+- script: tsc -b
+  displayName: 'TypeScript Build'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
